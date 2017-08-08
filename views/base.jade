@@ -1,0 +1,15 @@
+doctype html
+html
+	head
+		title="测试页面"
+		link(rel='stylesheet', href='./styles/style.css')
+		block css
+		script(src='./js/common/jquery-1.10.2.min.js')
+		script(src='./js/common.js')
+	body
+		div.header
+			span(data-js="btn_out") 退出
+		block content
+		div.foot
+			div.footinner footer
+		block script

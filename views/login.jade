@@ -1,0 +1,12 @@
+extends base
+block script
+	script(type='text/javascript',src="./js/login.js")
+block css
+	link(rel="stylesheet",src="./css/login.css")
+block content
+	lable 用户名 
+	input(name="name",type="text")
+	lable 密码 
+	input(name="passwd",type="password")
+	button(data-js="submit") 提交
+	p.info
